@@ -8,6 +8,6 @@
 
 int main() 
 {
-    printf("This C stuff is easy!\n");
+    printf("This C stuff is easy!\n"); // where \n is for new line
     return 0;
 }

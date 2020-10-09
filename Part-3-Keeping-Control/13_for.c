@@ -8,7 +8,7 @@
 
 int main()
 {
-    int i, j, k;
+    int i, j, k, outer, inner;
 
     i = 0;
     while (i <= 5)
@@ -34,6 +34,17 @@ int main()
     {
         printf("Still counting...");
         printf("%d\n", k); //0 to 10 in for loop
+    }
+
+    printf("\n");
+
+    for (outer = 1; outer <= 3; outer++)
+    {
+        for (inner = 1; inner <= 5; inner++)
+        {
+            printf("%d", inner);
+        }
+        printf("\n");//new line every 5 times
     }
     return 0;
 }

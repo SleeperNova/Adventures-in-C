@@ -1,7 +1,7 @@
 /*
     Francisco Saavedra 
 
-    Lower to upper case converter
+    Simple trig example
 */
 
 #include <stdio.h>
